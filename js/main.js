@@ -1,5 +1,5 @@
 'use strict'
-/* ссылкa на источник https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Math/random */
+/* ссылкa  на источник https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Math/random */
 let ERROR_IN_PARAMETERS = 'Ошибка';
 let getRandNum = function (min, max) {
   if (min < 0 || max < 0 || max <= min) {
