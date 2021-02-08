@@ -7,9 +7,3 @@ let getRandNum = function (min, max) {
   }
   return Math.floor(Math.random() * ((max - min) + min));
 }
-
-/* ссылкa на источник https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/length*/
-
-let getMaxlength = function (str, controlLenghtStr) {
-  return str.lenght > controlLenghtStr;
-}
