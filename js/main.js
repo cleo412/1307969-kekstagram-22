@@ -14,4 +14,5 @@ let getMaxlength = function (str, controlLenghtStr) {
   return str.lenght > controlLenghtStr;
 }
 
-getMaxlength(10, 20)
+getMaxlength(130, 140)
+getMaxlength(150, 140)
