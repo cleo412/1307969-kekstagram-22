@@ -38,7 +38,7 @@ const messages = [
 const addComments = () => {
   const comments = [];
 
-  for (let i = 0; i < getRandomInt(Comments.MIN, Comments.MAX); i++) )
+  for (let i = 0; i < getRandomInt(Comments.MIN, Comments.MAX); i++) {
     comments.push({
       id: getRandomInt(Nums.MIN, Nums.MAX),
       avatar: 'img/avatar-' + getRandomInt(Avatars.MIN, Avatars.MAX) + '.svg',
