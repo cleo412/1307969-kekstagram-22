@@ -9,12 +9,8 @@ const getRandomInt = function (min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-const stringCount = (text, sign) => {
-  return text.length <= sign ? true : false;
-}
-
 const getRandomElementArr = (array) => {
   return array[getRandomInt(0, array.length - 1)];
 }
 
-export { getRandomInt, stringCount, getRandomElementArr }
+export { getRandomInt, getRandomElementArr }

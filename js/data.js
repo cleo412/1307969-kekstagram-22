@@ -14,7 +14,7 @@ let photos = [];
 
 const names = ['Anna', 'Roman', 'Pavel', 'Olesya', 'Diana', 'Gala', 'Roman2', 'Anna2', 'Olesya412', 'Diana777'];
 
-const descriptionPhoto = [
+const descriptionsPhotos = [
   'С котом',
   'Без кота, но в шляпе',
   'Только коты',
@@ -38,7 +38,7 @@ const messages = [
 const addComments = () => {
   const comments = [];
 
-  for (let i = 0; i < getRandomInt(Comments.MIN, Comments.MAX); i++) {
+  for (let i = 0; i < getRandomInt(Comments.MIN, Comments.MAX); i++) )
     comments.push({
       id: getRandomInt(Nums.MIN, Nums.MAX),
       avatar: 'img/avatar-' + getRandomInt(Avatars.MIN, Avatars.MAX) + '.svg',
@@ -52,12 +52,12 @@ const addComments = () => {
 
 
 const addPhotos = () => {
-  for (let i = 0; i < PHOTO_COUNT; i++) {
+  for (let i = 1; i <= PHOTO_COUNT; i++) {
 
     photos.push({
       id: i,
-      url: 'photos/' + (i + 1) + '.jpg',
-      description: getRandomElementArr(descriptionPhoto),
+      url: 'photos/' + i + '.jpg',
+      description: getRandomElementArr(descriptionsPhotos),
       likes: getRandomInt(Likes.MIN, Likes.MAX),
       comments: addComments(),
     })
